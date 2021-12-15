@@ -89,3 +89,9 @@ li {
     display: flex;
     color: white;
 }
+
+@media (max-width: 450px) {
+    ul {
+        flex-flow: column;
+    }
+}
